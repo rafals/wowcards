@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'net/http'
 require 'datamapper'
-require 'card'
 
 DataMapper.setup(:default, "mysql://root@localhost/wow2")
 DataMapper.auto_upgrade!
